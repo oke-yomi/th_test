@@ -37,7 +37,7 @@ const Navbar = ({ links }: Props) => {
             {links.map((link, index) => (
               <li key={index} className="mr-10 cursor-pointer">
                 <a
-                  href="#"
+                  href="/"
                   className="flex items-center uppercase font-bold text-[15px] text-custom-gray transition duration-300 ease-in-out delay-75 hover:-translate-y-1 hover:text-custom-green"
                 >
                   {link.title}
